@@ -66,6 +66,10 @@ main {
     width: 20px;
 }
 
+.img-pro {
+    width: 45px;
+}
+
 a {
     color: #0087ae;
     text-decoration: none;
@@ -79,12 +83,21 @@ a {
     color: #f1411d;
 }
 
+.color-2 {
+    color: black;
+}
+
 .fon-1 {
     background-color: #f0f0e8;
     width: 270px;
 }
 .fon-2 {
     background-color: #f0f0e8;
+}
+
+.fon-3 {
+    background-color: #ebebe2;
+    width: 180px;
 }
 
 .tamaño {
@@ -104,6 +117,10 @@ a {
     flex-direction: column;
 }
 
+.borde {
+    border-top: solid 1px #d8d7cf;
+}
+
 .separar {
     padding: 3px;
 }
@@ -111,17 +128,22 @@ a {
 .sep-1 {
     padding: 13px;
 }
+.sep-2 {
+    padding-bottom: 20px;
+}
 .sep-ab {
     padding-bottom: 50px;
+}
+.sep-lad {
+    padding-left: 20px;
 }
 
 footer {
     display: flex;
     align-items: center;
-    background-color: #0e0e0e;
+    border-top: solid 1px #d8d7cf;
 
     width: 1200px;
-    color: #624099;
 
     margin: 0 auto;
     padding: 15px;

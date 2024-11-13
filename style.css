@@ -25,6 +25,10 @@ body {
     flex: 3;
 }
 
+.busqueda {
+    border-radius: 10px;
+}
+
 .row {
     display: flex;
 }
@@ -32,6 +36,11 @@ body {
 .alinear {
     display: flex;
     align-items: center;
+}
+
+.alinear-1 {
+    display: flex;
+    align-items: start;
 }
 
 .direc {
@@ -121,8 +130,16 @@ a {
     border-top: solid 1px #d8d7cf;
 }
 
+.borde-1 {
+    border: solid 1px #d8d7cf;
+}
+
 .separar {
     padding: 3px;
+}
+
+.separar-1 {
+    width: 50px;
 }
 
 .sep-1 {
@@ -131,12 +148,19 @@ a {
 .sep-2 {
     padding-bottom: 20px;
 }
+.sep-3 {
+    padding-left: 5px;
+}
 .sep-ab {
     padding-bottom: 50px;
+}
+.sep-ab2 {
+    padding-bottom: 20px;
 }
 .sep-lad {
     padding-left: 20px;
 }
+
 
 footer {
     display: flex;
@@ -150,6 +174,36 @@ footer {
     justify-content: space-between;
 }
 
+.no {
+    background: url(img/monitor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    display: flex;
+
+    padding: 100px;
+    max-width: 300px;
+    height: 100px;
+    margin: 50px;
+
+}
+
+
+
+.info {
+    position: relative;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.pc {
+    height: 200px;
+}
+
 
 
 
@@ -157,5 +211,5 @@ footer {
     background-image: url(img/monitor.png);
 
     width: 300px;
-    height: 
+    height: 300px;
 } */
